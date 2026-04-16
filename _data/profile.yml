@@ -1,32 +1,50 @@
-primary_name: "Karollyn Larissa de Quadros"
-secondary_name: ""
-navbar_name: "Karollyn"
+name: Karollyn Larissa de Quadros
+position: Environmental Engineer & Hydrology Researcher
+email: karollynq.ambiental@gmail.com
+phone: "+55 (41) 99936-3128"
+location: Curitiba, Paraná, Brazil
 
-positions:
-- name: Engenheira Ambiental
-- name: Mestranda
-
-email: "karollynq.ambiental@gmail.com"
-github: karollynquadros
-linkedin: karollyn_quadros
-
-short_bio_text_justify: false
-short_bio: >-
-  <p>
-    Olá! Sou Karollyn Larissa de Quadros, Engenheira Ambiental e mestranda apaixonada por sustentabilidade e inovação ambiental.
-  </p>
-  <p>
-    Aqui você encontra meus projetos, publicações e experiências profissionais.
-  </p>
-
-portrait_url: /assets/images/photos/portrait.jpg
-portrait_caption: Minha foto de perfil
+bio: |
+  I am an Environmental Engineer with a strong background in hydrology, 
+  hydroclimatology, and environmental modeling. I hold a Bachelor's degree 
+  in Environmental Engineering from UFPR and I'm currently pursuing a Master's 
+  degree in Environmental Engineering, focusing on evapotranspiration estimation 
+  using remote sensing data.
 
 education:
-- name: Sua Universidade
-  position: Seu Curso/Graduação
-  date: Seu período
+  - degree: "M.Sc. in Environmental Engineering"
+    institution: "Federal University of Paraná (UFPR)"
+    year: "August 2024 – Present"
+    details: "Qualification exam: December 15, 2025"
+  
+  - degree: "B.Sc. in Environmental Engineering"
+    institution: "Federal University of Paraná (UFPR)"
+    year: "January 2018 – August 2024"
+    details: "GPA: 0.8075/1.0"
 
-awards:
-- name: Seu Prêmio
-  date: 2024
+research_interests:
+  - Hydrology and Hydrological Balance
+  - Evapotranspiration Estimation
+  - Hydroclimatic Variability
+  - Remote Sensing Applied to Hydrology
+  - Reservoir Hydrodynamics
+  - Numerical Modeling
+  - Environmental Data Analysis
+
+technical_skills:
+  - "Programming: R, Python"
+  - "Hydrological Analysis: Water balance, evapotranspiration estimation"
+  - "Remote Sensing: GRACE/GRACE-FO satellite data"
+  - "Numerical Modeling: Delft3D hydrodynamic modeling"
+  - "Geospatial Analysis: QGIS"
+  - "Scientific Writing: LaTeX"
+
+languages:
+  - "Portuguese: Native"
+  - "English: Good reading, writing and speaking skills"
+  - "French: Intermediate reading and speaking skills"
+
+social:
+  github: "karollynquadros"
+  linkedin: "karollyn-larissa-de-quadros"
+  email: "karollynq.ambiental@gmail.com"
