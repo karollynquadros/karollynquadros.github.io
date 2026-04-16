@@ -3,17 +3,29 @@ title: "Karollyn Larissa de Quadros"
 description: "Environmental Engineer | Hydrology & Remote Sensing Researcher"
 author: "Karollyn Larissa de Quadros"
 email: "karollynq.ambiental@gmail.com"
+location: "Curitiba, Brasil"
+position: "Environmental Engineer & Researcher"
+phone: "+55 (XX) XXXXX-XXXX"
 
 # Social media links
 github_username: karollynquadros
 linkedin_username: karollyn-larissa-de-quadros
-twitter_username: karollynquadros
+
+# Bio
+bio: "Engenheira Ambiental com foco em Hidrologia e Sensoriamento Remoto."
+
+# Education
+education:
+  - degree: "Engenharia Ambiental"
+    institution: "UFPR"
+    year: "2024"
+    details: "Destaque acadêmico e medalha de ouro."
+
+# Listas para evitar erros no site
+research_interests: ["Hidrologia", "Sensoriamento Remoto", "Ondas Internas"]
+technical_skills: ["Python", "GIS", "Remote Sensing"]
+languages: ["Português (Nativo)", "Inglês"]
 
 # Build settings
 markdown: kramdown
-plugins:
-  - jekyll-email-protect
-
-collections:
-  - publications
-  - news
+remote_theme: jekyll/jekyll-theme-primer # Ou o tema que você preferir
