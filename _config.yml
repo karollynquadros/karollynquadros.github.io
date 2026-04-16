@@ -3,29 +3,29 @@ title: "Karollyn Larissa de Quadros"
 description: "Environmental Engineer | Hydrology & Remote Sensing Researcher"
 author: "Karollyn Larissa de Quadros"
 email: "karollynq.ambiental@gmail.com"
-location: "Curitiba, Brasil"
+location: "Curitiba, Brazil"
 position: "Environmental Engineer & Researcher"
-phone: "+55 (XX) XXXXX-XXXX"
+phone: "+55 (XX) XXXXX-XXXX" # Replace with your number if you want
 
 # Social media links
 github_username: karollynquadros
 linkedin_username: karollyn-larissa-de-quadros
 
 # Bio
-bio: "Engenheira Ambiental com foco em Hidrologia e Sensoriamento Remoto."
+bio: "Environmental Engineer focused on Hydrology and Remote Sensing. Passionate about water resources and scientific research."
 
 # Education
 education:
-  - degree: "Engenharia Ambiental"
-    institution: "UFPR"
+  - degree: "B.S. in Environmental Engineering"
+    institution: "Federal University of Paraná (UFPR)"
     year: "2024"
-    details: "Destaque acadêmico e medalha de ouro."
+    details: "Academic distinction and Gold Medal for first place in class."
 
-# Listas para evitar erros no site
-research_interests: ["Hidrologia", "Sensoriamento Remoto", "Ondas Internas"]
-technical_skills: ["Python", "GIS", "Remote Sensing"]
-languages: ["Português (Nativo)", "Inglês"]
+# Lists to populate your site sections
+research_interests: ["Hydrology", "Remote Sensing", "Internal Waves", "Water Resources"]
+technical_skills: ["Python", "GIS", "Remote Sensing Analysis", "Data Science"]
+languages: ["Portuguese (Native)", "English (Professional)"]
 
 # Build settings
 markdown: kramdown
-remote_theme: jekyll/jekyll-theme-primer # Ou o tema que você preferir
+remote_theme: jekyll/jekyll-theme-primer
