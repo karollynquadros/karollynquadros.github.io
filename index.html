@@ -1,110 +1,77 @@
-![Profile Photo](/assets/imgages/photos/profile.jpg)
-# Welcome to My Portfolio
-
-## About Me
-
-I am an Environmental Engineer with a strong background in hydrology, hydroclimatology, and environmental modeling. I hold a Bachelor's degree in Environmental Engineering from the Federal University of Paraná (UFPR) and I'm currently pursuing a Master's degree in Environmental Engineering at UFPR.
-
-**Contact:** karollynq.ambiental@gmail.com | +55 (41) 99936-3128
-
-### Research Interests
-- Hydrology and Hydrological Balance
-- Evapotranspiration Estimation
-- Hydroclimatic Variability
-- Remote Sensing Applied to Hydrology
-- Reservoir Hydrodynamics
-- Numerical Modeling
-- Environmental Data Analysis
-
+---
+layout: default
 ---
 
-## Education
-
-### M.Sc. in Environmental Engineering (in progress)
-**Federal University of Paraná (UFPR)**, Brazil  
-August 2024 – Present  
-*Qualification exam: December 15, 2025*
-
-### B.Sc. in Environmental Engineering
-**Federal University of Paraná (UFPR)**, Brazil  
-January 2018 – August 2024  
-*GPA: 0.8075/1.0*
-
----
-
-## Research Experience
-
-### Graduate Researcher (M.Sc.)
-**Federal University of Paraná (UFPR)**
-- Master's research focused on evapotranspiration estimation in river basins of Paraná
-- Application of hydrological water balance equation using GRACE/GRACE-FO satellite data
-- Analysis of evapotranspiration variability at basin scale
-
-### Undergraduate Researcher
-**Hydrology Laboratory, UFPR** | Supervisor: Prof. Dr. Tobias Bleninger
-- Development of research projects on floating solar panels and their effects on water movement
-- 3D hydrodynamic numerical modeling using Delft3D
-- Published peer-reviewed conference paper at SBRH 2023
-
-### Undergraduate Researcher
-**Meteorology Laboratory, UFPR** | Supervisor: Prof. Dr. Alice Marlene Grimm
-- Analysis of climate variability impacts on precipitation over Latin America
-- Statistical analysis of hydroclimatic time series
-
----
-
-## Professional Experience
-
-### M.Sc. Scholarship Holder / Researcher – SIMEPAR
-**August 2024 – Present**
-- Hydrological and environmental data analysis
-- Development of landslide monitoring project
-- Drought status index development
-- Monthly technical reports and institutional communication
-
-### Research Intern – SIMEPAR
-**September 2023 – August 2024**
-- Statistical data analysis using R
-- Remote sensing data analysis (GRACE missions)
-
-### Intern – Lactec
-**April 2021 – April 2022**
-- Environmental and hydrological projects support
-- Data processing and validation
-
-### Intern – RHA Engenharia e Consultoria
-**April 2020 – April 2021**
-- Environmental consulting projects
-- Data quality control
-
----
-
-## Publications
-
-### Peer-reviewed Conference Papers
-- de Quadros, K. L., Ferreira, E. M., Fernandes, C. V. S., Bleninger, T. B., & Bueno, R. C. (2023). Influence of Floating Photovoltaic Panels on Internal Wave Dynamics in Lakes and Reservoirs. *Proceedings of the XXV Brazilian Symposium on Water Resources (SBRH)*, Brazil.
-
-- de Quadros, K. L., Lima, M. F. D. S., Ferreira, D. M., Gonçalves, J. E., Mannich, M., Inouye, R. T., & Silveira, R. (2025). Bias Correction of Daily Precipitation Data from the WRF Model. *Proceedings of the XXVI Brazilian Symposium on Water Resources (SBRH)*, Brazil.
-
-### Manuscripts in Preparation
-- Estimation of Evapotranspiration in River Basins of Southern Brazil Using Hydrological Balance and GRACE/GRACE-FO Data
-- Rainfall Accumulation Thresholds for Landslide Early Warning Systems: A Case Study from the Serra do Mar, Brazil
-
----
-
-## Technical Skills
-
-- **Programming:** R, Python
-- **Hydrological Analysis:** Water balance, evapotranspiration estimation
-- **Remote Sensing:** GRACE/GRACE-FO satellite data
-- **Numerical Modeling:** Delft3D hydrodynamic modeling
-- **Geospatial Analysis:** QGIS
-- **Scientific Writing:** LaTeX
-
----
-
-## Languages
-
-- **Portuguese:** Native
-- **English:** Good reading, writing and speaking skills
-- **French:** Intermediate reading and speaking skills
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <img src="/assets/img/profile.jpg" class="img-fluid rounded-circle" alt="Karollyn Larissa de Quadros" style="max-width: 200px;">
+      <h2>{{ site.data.profile.name }}</h2>
+      <p><strong>{{ site.data.profile.position }}</strong></p>
+      <p>📍 {{ site.data.profile.location }}</p>
+      <p>📧 <a href="mailto:{{ site.data.profile.email }}">{{ site.data.profile.email }}</a></p>
+      <p>📱 {{ site.data.profile.phone }}</p>
+      
+      <hr>
+      
+      <h4>Connect</h4>
+      <ul class="list-unstyled">
+        <li><a href="https://github.com/{{ site.data.profile.social.github }}" target="_blank">GitHub</a></li>
+        <li><a href="https://linkedin.com/in/{{ site.data.profile.social.linkedin }}" target="_blank">LinkedIn</a></li>
+      </ul>
+    </div>
+    
+    <div class="col-md-9">
+      <h1>Welcome</h1>
+      
+      <h2>About Me</h2>
+      <p>{{ site.data.profile.bio }}</p>
+      
+      <hr>
+      
+      <h2>🏆 Honors & Awards</h2>
+      <ul>
+        <li><strong>Gold Medal</strong> - UFPR (2024) - First place in class at graduation ceremony</li>
+        <li><strong>Scientific Initiation Award</strong> - UFPR (2023) - Internal Waves Research</li>
+        <li><strong>Maximum Grade in Capstone Project</strong> - UFPR (2024) - Final Projects I & II</li>
+        <li><strong>Conference Award</strong> - SBRH (2023) - Floating Photovoltaic Panels Research</li>
+      </ul>
+      
+      <hr>
+      
+      <h2>Education</h2>
+      {% for edu in site.data.profile.education %}
+      <h4>{{ edu.degree }}</h4>
+      <p><strong>{{ edu.institution }}</strong> | {{ edu.year }}</p>
+      <p>{{ edu.details }}</p>
+      {% endfor %}
+      
+      <hr>
+      
+      <h2>Research Interests</h2>
+      <ul>
+        {% for interest in site.data.profile.research_interests %}
+        <li>{{ interest }}</li>
+        {% endfor %}
+      </ul>
+      
+      <hr>
+      
+      <h2>Technical Skills</h2>
+      <ul>
+        {% for skill in site.data.profile.technical_skills %}
+        <li>{{ skill }}</li>
+        {% endfor %}
+      </ul>
+      
+      <hr>
+      
+      <h2>Languages</h2>
+      <ul>
+        {% for lang in site.data.profile.languages %}
+        <li>{{ lang }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
