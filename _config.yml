@@ -1,12 +1,13 @@
 # Site settings
 title: "Karollyn Larissa de Quadros"
-description: "Engenheira Ambiental - Mestranda"
+description: "Environmental Engineer | Hydrology & Remote Sensing Researcher"
 author: "Karollyn Larissa de Quadros"
 email: "karollynq.ambiental@gmail.com"
 
 # Social media links
 github_username: karollynquadros
-linkedin_username: karollyn_quadros
+linkedin_username: karollyn-larissa-de-quadros
+twitter_username: karollynquadros
 
 # Build settings
 markdown: kramdown
@@ -16,4 +17,3 @@ plugins:
 collections:
   - publications
   - news
-  - showcase
