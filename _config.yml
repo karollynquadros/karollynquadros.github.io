@@ -1,4 +1,3 @@
-# Site settings
 title: "Karollyn Larissa de Quadros"
 description: "Environmental Engineer | Hydrology & Remote Sensing Researcher"
 author: "Karollyn Larissa de Quadros"
@@ -7,25 +6,20 @@ location: "Curitiba, Brazil"
 position: "Environmental Engineer & Researcher"
 phone: "+55 (XX) XXXXX-XXXX"
 
-# Social media links
 github_username: karollynquadros
 linkedin_username: karollyn-larissa-de-quadros
 
-# Bio
 bio: "Environmental Engineer focused on Hydrology and Remote Sensing. Passionate about water resources and scientific research."
 
-# Education
 education:
   - degree: "B.S. in Environmental Engineering"
     institution: "Federal University of Paraná (UFPR)"
     year: "2024"
     details: "Academic distinction and Gold Medal for first place in class."
 
-# Lists
 research_interests: ["Hydrology", "Remote Sensing", "Internal Waves", "Water Resources"]
 technical_skills: ["Python", "GIS", "Remote Sensing Analysis", "Data Science"]
 languages: ["Portuguese (Native)", "English (Professional)"]
 
-# Build settings
 markdown: kramdown
-theme: jekyll-theme-primer # MUDANÇA AQUI: de 'remote_theme' para 'theme' simples
+theme: jekyll-theme-primer
