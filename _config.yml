@@ -5,7 +5,7 @@ author: "Karollyn Larissa de Quadros"
 email: "karollynq.ambiental@gmail.com"
 location: "Curitiba, Brazil"
 position: "Environmental Engineer & Researcher"
-phone: "+55 (XX) XXXXX-XXXX" # Replace with your number if you want
+phone: "+55 (XX) XXXXX-XXXX"
 
 # Social media links
 github_username: karollynquadros
@@ -21,11 +21,11 @@ education:
     year: "2024"
     details: "Academic distinction and Gold Medal for first place in class."
 
-# Lists to populate your site sections
+# Lists
 research_interests: ["Hydrology", "Remote Sensing", "Internal Waves", "Water Resources"]
 technical_skills: ["Python", "GIS", "Remote Sensing Analysis", "Data Science"]
 languages: ["Portuguese (Native)", "English (Professional)"]
 
 # Build settings
 markdown: kramdown
-remote_theme: jekyll/jekyll-theme-primer
+theme: jekyll-theme-primer # MUDANÇA AQUI: de 'remote_theme' para 'theme' simples
