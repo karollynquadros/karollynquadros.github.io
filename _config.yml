@@ -1,13 +1,12 @@
 # Site settings
-title: "Seu Nome Aqui"
-description: "Sua descrição/profissão"
-author: "Seu Nome"
-email: "seu.email@exemplo.com"
+title: "Karollyn Larissa de Quadros"
+description: "Engenheira Ambiental - Mestranda"
+author: "Karollyn Larissa de Quadros"
+email: "karollynq.ambiental@gmail.com"
 
 # Social media links
 github_username: karollynquadros
-linkedin_username: seu-linkedin
-twitter_username: seu-twitter
+linkedin_username: karollyn_quadros
 
 # Build settings
 markdown: kramdown
